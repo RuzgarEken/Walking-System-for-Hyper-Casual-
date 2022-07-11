@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4431919352337496768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349261347, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733041045349504423, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: m_Name
+      value: Walker_NavMeshAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064177208838900400, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: _moveBehaviour
+      value: 
+      objectReference: {fileID: 1469408189918924883}
+    - target: {fileID: 8064177208838900400, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: _arriveThreshold
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064177208838900400, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+      propertyPath: _rotationBehaviuor
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+--- !u!1 &1760029437725765479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2733041045349504423, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+  m_PrefabInstance: {fileID: 4431919352337496768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1760029437716302881 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2733041045340092129, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+  m_PrefabInstance: {fileID: 4431919352337496768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5938243883202097264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8064177208838900400, guid: 2d85ce8ec01bfb24c98d2593c995d47a, type: 3}
+  m_PrefabInstance: {fileID: 4431919352337496768}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760029437725765479}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc19fa5bbfdef746b4d040a5480031b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1263713070624657259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760029437725765479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d33597789860de4992a26116fce3727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsSRTarget: 0
+  _baseComponent: {fileID: 5938243883202097264}
+  _animator: {fileID: 1760029437716302881}
+  _runAnimationId: Walking
+--- !u!114 &-554237489359375602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760029437725765479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a0357035d08b346823d040a16af1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsSRTarget: 0
+  _walker: {fileID: 5938243883202097264}
+  _points:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _waitTime: 0.75
+--- !u!114 &1469408189918924883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760029437725765479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8472915b0fee5ca4fa64dbf5436db6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsSRTarget: 0
+  _baseComponent: {fileID: 5938243883202097264}
+  _agent: {fileID: 1860921659904933074}
+--- !u!195 &1860921659904933074
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760029437725765479}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.25
+  m_Speed: 1
+  m_Acceleration: 720
+  avoidancePriority: 50
+  m_AngularSpeed: 720
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

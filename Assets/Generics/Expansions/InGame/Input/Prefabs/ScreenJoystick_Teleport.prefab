@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5919755308670431421
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 805963611, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: _parent
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441688, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_Name
+      value: ScreenJoystick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705600622528441691, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+--- !u!1 &2092326233441738213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5705600622528441688, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+  m_PrefabInstance: {fileID: 5919755308670431421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2092326233441738208 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5705600622528441693, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+  m_PrefabInstance: {fileID: 5919755308670431421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092326233441738213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5919755309475346406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 805963611, guid: ccfdf6b81eaacaa4c8396201dc96df35, type: 3}
+  m_PrefabInstance: {fileID: 5919755308670431421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092326233441738213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4343efbaa7dfca745b371601c0937f92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &805963610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092326233441738213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf803116c45e94aba70632ba5bcb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _joystickImages:
+  - {fileID: 2092326233441738208}
+  _screenStick: {fileID: 5919755309475346406}
