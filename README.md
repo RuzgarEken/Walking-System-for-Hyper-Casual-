@@ -1,4 +1,4 @@
-# Hyper-Casual-Walking-Systems
+# Walking System for Hyper Casual games
 This repository is a showcase for different walking mechanics in hyper casual games.
 
   As we all know in the hyper casual industry, the prototyping process should be fast as possible to be able to catch new trends and also not losing discovered 
