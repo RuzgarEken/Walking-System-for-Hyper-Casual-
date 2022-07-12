@@ -24,17 +24,20 @@ a look at what I actually meant by extending;
 
 ![Walking](https://user-images.githubusercontent.com/38860395/178273246-62411359-ae2f-46bf-9791-a9af3862c481.gif)
 
-  ComponentBase fires an event when it is enabled or disabled. So other components can register themselves to this event to align their states with it. In this 
-scenario, WalkingBehaviour is in the center of other components and one of the components processes input to enable WalkingBehaviour when there is active input. 
-This system allows me to sync many components to work together, and also provide me easily replace some components to vary behaviour for other use cases.
+  ComponentBase fires an event when it is enabled or disabled. So other components can listen this event to align their states with it. In this 
+scenario, WalkingBehaviour is in the center of other components and JoystickInput component processes input to enable and pass input to WalkingBehaviour when there is active input. As you see here, there are different components for each logic, movement, rotation, animation, and input that works together. They just mind their own business without causing a mess together. In the end, this allows me to sync many components to work together, and also provide me easily replace some components to vary behaviour for other use cases.
 
-  In the other example below, i changed the final behaviour by only changing WalkingMoveBehaviour variants. Our runner has teleport movement variant and it is 
+  In the other example below, i changed the final mechanic by only changing WalkingMoveBehaviour variants. Our runner has teleport movement variant and it is 
 following the cursor which is following the path. The enemy characters also have speed-based movement variant and they follow our character if it is in their 
 range.
 
 ![WalkingRunner(1)](https://user-images.githubusercontent.com/38860395/178307896-3841b5c1-c4aa-480b-b68c-77c7bfb6c3d8.gif)
 
-Also it is easy to use same approach for any further requirements. In this repository you can find 5 different movement behaviour.
+And another one for NavMeshAgent
+
+![WalkingNavMeshAgent](https://user-images.githubusercontent.com/38860395/178422768-82545345-3289-434c-b949-f71c6404f4ff.gif)
+
+It is easy to use same approach for any further requirements. In this repository you can find 5 different movement behaviour.
 
 Extra assets used in this project: 
 - BetterWaitForSeconds by yasirkula - https://gist.github.com/yasirkula/5cd2681d0cfdbf6ed4a369e1664cfb98
